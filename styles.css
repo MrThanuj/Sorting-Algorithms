@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+}
+
+#barCount {
+    width: 70%;
+}
+
+.circle {
+    background-color: yellow;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.line-first-right {
+    width: 1px;
+    height: 60px;
+    background-color: black;
+    transform: rotate(15deg);
+}
+
+.line-first-left {
+    width: 1px;
+    height: 60px;
+    background-color: black;
+    transform: rotate(-15deg);
+}
+
+.line-second-right {
+    width: 1px;
+    height: 70px;
+    background-color: black;
+    transform: rotate(30deg);
+}
+
+.line-second-left {
+    width: 1px;
+    height: 70px;
+    background-color: black;
+    transform: rotate(-30deg);
+}
+
+.line-third-right {
+    width: 1px;
+    height: 100px;
+    background-color: black;
+    transform: rotate(35deg);
+}
+
+.line-third-left {
+    width: 1px;
+    height: 100px;
+    background-color: black;
+    transform: rotate(-35deg);
+}
+
+.line-fourth-right {
+    width: 1px;
+    height: 150px;
+    background-color: black;
+    transform: rotate(45deg);
+}
+
+.line-fourth-left {
+    width: 1px;
+    height: 150px;
+    background-color: black;
+    transform: rotate(-45deg);
+}
+
+.line-fifth-right {
+    width: 1px;
+    height: 230px;
+    background-color: black;
+    transform: rotate(45deg);
+}
+
+.line-fifth-left {
+    width: 1px;
+    height: 230px;
+    background-color: black;
+    transform: rotate(-45deg);
+}
+
+.spacing-first {
+    width: 30px;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.blinking {
+    animation: blink 1s infinite;
+}
