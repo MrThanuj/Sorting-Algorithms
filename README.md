@@ -6,7 +6,7 @@ Getting Started
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/your-username/sorting-algorithms.git
+git clone [https://github.com/your-username/sorting-algorithms.git](https://github.com/MrThanuj/sorting-algorithms.git)
 cd sorting-algorithms
 Open index.html in a web browser.
 Usage
