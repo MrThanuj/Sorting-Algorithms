@@ -22,9 +22,6 @@ sorting.js: The JavaScript file containing the sorting algorithms and visualizat
 Contributing
 Contributions are welcome. Feel free to open issues and pull requests.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 Author
 Thanuj Kumar Shivalingaiah
 Email: txs6007@mavs.uta.edu
