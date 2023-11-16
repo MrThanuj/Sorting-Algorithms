@@ -8,7 +8,7 @@ bash
 Copy code
 git clone [https://github.com/your-username/sorting-algorithms.git](https://github.com/MrThanuj/sorting-algorithms.git)
 cd sorting-algorithms
-Open index.html in a web browser.
+Open sortingalgo.html in a web browser.
 Usage
 Generate a new array by clicking the "Generate New Array" button.
 Adjust the number of bars using the slider.
