@@ -19,7 +19,7 @@ Choose a sorting algorithm from the dropdown menu.<br>
 Click the "START" button to initiate the sorting process.<br>
 
 File Structure:<br>
-index.html: The main HTML file containing the project structure.<br>
+sortingalgo.html: The main HTML file containing the project structure.<br>
 styles.css: The stylesheet for styling the user interface.<br>
 sorting.js: The JavaScript file containing the sorting algorithms and visualization logic.
 
