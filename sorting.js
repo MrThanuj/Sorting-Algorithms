@@ -476,7 +476,7 @@ async function initiate3QuickSort() {
 
 
 //Creating array
-function createArray(size) {
+/*function createArray(size) {
     nums.splice(0, nums.length);
     upperDgm.innerHTML = "";
     while (nums.length < size) {
@@ -501,7 +501,38 @@ function createArray(size) {
     })
     startBtn.disabled = false;
 
+}*/
+
+function createArray(size) {
+    nums.splice(0, nums.length);
+    upperDgm.innerHTML = "";
+    
+    for (let i = 0; i < size; i++) {
+        let r = Math.floor(Math.random() * 100);
+        nums.push(r * 3);
+    }
+
+    updateNumBarsDisplay(size);
+
+    for (let i = 0; i < size; i++) {
+        let element = document.createElement("div");
+        element.classList.add("bar");
+        element.style.width = `${1000 / size}px`; // Adjust the width based on your visualization preferences
+        element.style.backgroundColor = "yellow";
+        element.style.border = "1px solid";
+        element.style.height = `${nums[i]}px`;
+        upperDgm.appendChild(element);
+    }
+
+    Array.from(buttons).forEach((element) => {
+        element.disabled = false;
+    });
+    startBtn.disabled = false;
 }
+
+// Call createArray with the desired size (2000)
+createArray(2000);
+
 
 async function startSorting() {
     algorithms = {
